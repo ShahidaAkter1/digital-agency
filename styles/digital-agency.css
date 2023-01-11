@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* header section */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.items{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 35px;
+    font-weight: 200px;
+}
+.item{
+    
+    flex-direction: row;
+} 
+
+/* main section */
+/* digital Agency */
+.digital-agency{
+    background-image: url('../asset/image/background.jpg');
+    height: 900px;
+    width: 100%;
+    
+}
+.div{
+    text-align: center;
+    padding: 200px;
+    font-size: 30px;
+    font-weight: 200px;
+}
+.title{
+    font-size: 100px;
+    color:brown;
+}
+span{
+    color: rgb(220, 207, 20);
+}
+.title-description{
+    color:blue;
+   
+}
+.div1{
+    margin-bottom: 50px;
+}
+.div2{
+    gap: 100px;
+}
+.div2 button{
+   font-size: 30px;
+   font-weight: 200px;
+   padding: 30px;
+}
+.btn-1{
+    background-color: red;
+    color: blanchedalmond;
+}
+
+/* service section */
+.service{
+    display: flex;
+}
+.service-div2{
+    height: 100px;
+    width: 50%;
+    font-size: 100px;
+}
+
+
+/* Blog & News */
+
+.news-blog{
+    text-align: center;
+}
+.blog-title{
+    font-size: 80px;
+    font-weight: 400px;
+}
+.blog-description{
+    font-size: 20px;
+    font-weight: 150px;
+    margin-bottom: 30px;
+}
+.news-blog2{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+ 
+    
+}
+.maxime1{
+     margin-left:70px;
+    margin-right: 80px; 
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+   box-shadow: 5px 10px 8px 10px #888888;
+}
+.maxime1 img{
+    height: 200px;
+    width: 100%;
+}
+.n-b-2{
+    font-size: 30px;
+    font-weight: 200px;  
+}
+.maxime1 p{
+    font-size: 20px;
+    font-weight: 100px;     
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    height: 400px;
+    width:1500px;
+    background: black;
+    color: aqua;
+    padding: 100px;
+}
+.footer1{
+    display: flex;
+    gap: 30px;
+    margin: 0px 100px 30px 100px;
+    justify-content: space-between;
+}
+.agency p{
+    font-size: 20px;
+}
+.list{
+    list-style: none;
+}
+.hr{
+    margin: 0px 100px 40px 100px;
+
+}
+h3{
+    font-size: 30px;
+    color:crimson;
+    margin-bottom: 20px;
+}
